@@ -20,7 +20,7 @@ html {
 
 body {
   margin: 0;
-  line-height: 1.3;
+  padding: 1rem;
 }
 
 article {
@@ -29,27 +29,21 @@ article {
 
 article h1 {
   font-weight: normal;
-  margin: 0;
 }
 
 article header {
   border-bottom: 1px solid #999;
+  margin-bottom: 1.3rem;
 }
 
 article header p {
   font-style: italic;
-  font-family: "Crimson Text", serif;
-  margin: 0;
-  padding-top: .1em;
-  padding-bottom: 1.3em;
+  margin-bottom: 1.3rem;
 }
 
 article > p:last-child {
   border-bottom: 1px solid #999;
-}
-
-p {
-  margin: 0;
+  padding-bottom: 1.3rem;
 }
 
 blockquote {
@@ -57,9 +51,34 @@ blockquote {
   color: #555;
   font-size: 1.125rem;
   margin: 0;
+  margin-bottom: 1.3rem;
 }
 
 .quote {
   color: #999;
   max-width: 43em;
+}
+
+article p {
+  margin-top: 0;
+  margin-bottom: 1.3rem;
+}
+
+article ol {
+  margin-top: 0;
+  margin-bottom:1.3rem;
+}
+
+h1 {
+  margin: 0;
+  padding-top: .3rem;
+}
+
+header p {
+  margin-top: 0;
+}
+
+ol {
+  padding: 0 1em;
+  margin-bottom: 1.3rem;
 }
