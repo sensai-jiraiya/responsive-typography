@@ -83,4 +83,17 @@ ol {
   margin-bottom: 1.3rem;
 }
 
-@media only screen and (min-width: 38em)
+@media only screen and (min-width: 38em) {
+
+  html {
+    font-size: 110%;
+    line-height: 1.4;
+    margin-bottom: 1.4rem;
+  }
+
+  article {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+  }
+}
