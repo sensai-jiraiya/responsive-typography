@@ -18,6 +18,11 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+  padding: 1em;
+}
+
 article {
   max-width: 43em;
 }
