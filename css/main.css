@@ -96,4 +96,9 @@ ol {
   margin-left: auto;
   margin-right: auto;
   }
+
+  blockquote {
+    margin-right: auto;
+    margin-left: auto;
+  }
 }
